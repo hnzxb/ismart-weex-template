@@ -1,0 +1,28 @@
+{
+  "name": "ismart-weex-template",
+  "version": "1.0.2",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnzxb/ismart-pack.git"
+  },
+  "keywords": [
+    "ismart",
+    "weex",
+    "template"
+  ],
+  "author": "ben.zeng@sharemarking.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnzxb/ismart-pack/issues"
+  },
+  "homepage": "https://github.com/hnzxb/ismart-pack#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "weex-loader": "^0.5.3"
+  }
+}
