@@ -1,8 +1,7 @@
 <template>
     <div class="wrapper" @click="update">
-        <header></header>
         <image :src="logoUrl" class="logo"></image>
-        <text class="title">Hello {{target}}</text>
+        <text class="title">Hello2 {{target}}</text>
     </div>
 </template>
 
@@ -23,19 +22,17 @@
 </style>
 
 <script>
-    import logo from '../assets/img/logo.png';
-    import header from './components/header.vue';
     export default {
         data      : {
-            logoUrl: "./assets/img/logo.png",
+            logoUrl: "https://www.baidu.com/img/baidu_jgylogo3.gif",
             target : 'World'
         },
         methods   : {
             update: function (e) {
-                this.target = 'iWeex'
+                this.target = 'Fuck iWeex'
                 console.log('target:', this.target)
             }
         },
-        components: {header: header}
+        components: {}
     }
 </script>
